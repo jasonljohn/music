@@ -18,6 +18,6 @@ module.exports = {
     ecmaVersion: 'latest'
   },
   env: {
-    node: true
+    node: true // otherwise eslint assume code is only for browsers and module and require are not recoginized in brower env.
   }
 }

@@ -4,5 +4,6 @@ module.exports = {
   theme: {
     extend: {}
   },
+  purge: ['./public/**/*.html', './src/**/*.js'],
   plugins: []
 };
